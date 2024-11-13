@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+      }
+      html {
+        /* width: 100vw;
+        height: 100vh; */
+      }
+      body {
+        padding: 0px;
+        margin: 0px;
+        font-family: "Montserrat", serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+      }
+      .bg-section1 {
+        background-color: #f1f2ef;
+        height: 40vh;
+      }
+      .bg-section2 {
+        background-color: white;
+        flex-grow: 1;
+        /* height: 80%; */
+      }
+      .container {
+        position: absolute;
+        background-color: transparent;
+        width: 100%;
+        box-sizing: border-box;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+      }
+      .sub-container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 40px;
+      }
+
+      .logo1 {
+        color: #07410d;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 40px;
+      }
+      .logo2 {
+        color: #07410d;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+      }
+      .text-content {
+        /* width: 100%; */
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 20px 25px -5px #0000001a;
+        /* box-shadow: 0px 10px 10px -5px #0000000a; */
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+      }
+      .text-content p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .text-content p:nth-child(6) {
+        font-weight: 700;
+      }
+
+      .footer-container {
+        /* margin-top: 64px; */
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+      }
+      .footer-container h2:first-child {
+        margin-bottom: 16px;
+      }
+      .footer-top-links {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        border-bottom: 1px solid #d0d5dd;
+        padding-bottom: 16px;
+        width: 100%;
+      }
+      .footer-top-links a {
+        padding-right: 12px;
+      }
+      .footer-top-links a:nth-child(1) {
+        border-right: 1px solid #d0d5dd;
+      }
+      .footer-top-links a:nth-child(2) {
+        border-right: 1px solid #d0d5dd;
+      }
+      .footer-top-content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+      }
+      .footer-middle-links {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding-bottom: 16px;
+        width: 100%;
+        margin-top: 16px;
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+      }
+      .footer-top-content p:first-child {
+        margin-bottom: 16px;
+        margin-top: 16px;
+      }
+      .footer-middle-links a {
+        padding-right: 12px;
+      }
+      .footer-middle-links a:nth-child(1) {
+        border-right: 1px solid #d0d5dd;
+      }
+      .footer-middle-links a:nth-child(2) {
+        border-right: 1px solid #d0d5dd;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="bg-section1"></div>
+    <div class="bg-section2"></div>
+    <div class="container">
+      <div class="sub-container">
+        <h2 class="logo1">Gas Vision</h2>
+        <div class="text-content">
+          <h1>Thanks For Joining the Gasfyx Waitlist</h1>
+          <p>Thanks for your interest in Gasfyx!</p>
+          <p>
+            We're excited to announce that you've successfully joined our
+            waitlist. As soon as our service is available in your area, we'll
+            notify you immediately.
+          </p>
+          <p>In the meantime, stay tuned for updates and exclusive offers.</p>
+          <p>Best regards,</p>
+          <p>The Gasfyx Team</p>
+        </div>
+        <div class="footer-container">
+          <h2 class="logo2">Gas Vision</h2>
+          <div class="footer-top-links">
+            <a href="/google.com">Shop</a>
+            <a href="/google.com">Twitter</a>
+            <a href="/google.com">Instagram</a>
+          </div>
+          <div class="footer-top-content">
+            <p>
+              If you have questions or need help, don't hesitate to contact our
+              support team!
+            </p>
+            <p>GASFYX, 4 World Trade Center, 150 Greenwich Street,</p>
+            <p>Lagos State, LAG 10007, Nigeria</p>
+          </div>
+          <div class="footer-middle-links">
+            <a href="/google.com">Terms & conditions</a>
+            <a href="/google.com">Privacy policy</a>
+            <a href="/google.com">Contact us</a>
+          </div>
+          <p>
+            This message was sent to name@doamin.com. If you don't want to
+            receive these emails from GASFYX in the future, you can
+            <span><a href="">edit your profile</a></span> or
+            <span><a href="">unsubscribe.</a></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
